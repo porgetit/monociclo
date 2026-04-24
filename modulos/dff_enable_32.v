@@ -15,6 +15,7 @@ module dff_enable_32 (
     input wire [31:0] d,
     input wire clk,
     input wire en,
+    input wire reset,
     output wire [31:0] q
 );
 
