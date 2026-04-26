@@ -10,7 +10,7 @@
         - out: Salida de 32 bits que representa el valor actual del PC.
 */
 
-module pc_tb (
+module pc (
     input wire wen, reset, clk,
     output wire [31:0] address
 );

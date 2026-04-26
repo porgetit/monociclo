@@ -7,7 +7,7 @@
         - instruction: instrucción leída de la memoria (32 bits)
 */
 
-module program_memory (
+module instruction_memory (
     input wire [31:0] address,
     output wire [31:0] instruction
 );
